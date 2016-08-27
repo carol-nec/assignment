@@ -1,3 +1,4 @@
 <h1><%= @item.name %></h1>
 <p>&euro;<%= @item.price %></p>
+<p><%= link_to "Edit Item", item_edit_path(@item) %></p>
 <p><%= link_to "<< Back to full listing", root_path %></p>
